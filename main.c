@@ -103,6 +103,8 @@ int main(){
                         printf("Atenção: Seu saldo está negativo. Por favor, regularize sua conta o mais rápido possível.\n");
                     }
                 }
+                gravar_saldo(cliente1); // Atualiza o saldo no arquivo
+                limpar_buffer();
                 break;
 
             case 3:
